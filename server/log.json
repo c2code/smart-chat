@@ -1,0 +1,21 @@
+{
+    "json": true,
+    "level": 0,
+    "selectors": [],
+
+    "to_observer": false,
+    "to_stderr": false,
+    "to_files": true,
+
+    "files": {
+        "path": "logs",
+        "name": "beluga1.log",
+        "maxsize": 5,
+        "maxbackups": 4000,
+        "maxage": 20,
+        "compress": false
+    },
+
+    "add_caller": true,
+    "development": true
+}

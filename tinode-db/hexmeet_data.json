@@ -1,0 +1,59 @@
+{
+"users": [
+  
+  {
+   "createdAt": "-133h",
+   "email": "hexmeetim@hexmeet.com",
+   "tel": "+17025550099",
+   "passhash": "2ghlmcl@#$",
+   "authLevel": "root",
+   "private": {"comment": "No one knowns that me exists"},
+   "public": {"fn": "HexMeet IM Admin", "photo": "xena-128.jpg", "type": "jpg"},
+   "state": 1,
+   "status": "One World, One dream.",
+   "username": "hexmeetim",
+   "addressBook": []
+  }
+ ],
+
+ "grouptopics": [
+  
+ ],
+ "p2psubs": [
+  
+ ],
+ "groupsubs": [
+ ],
+ "messages": [
+  
+ ],
+"forms": [
+  {
+    "txt": "Post responseYesДа",
+    "fmt": [
+      {"at": 0, "len": 18, "tp": "FM"},
+      {"at": 0, "len": 13, "tp": "ST"},
+      {"at": 13, "len": 3, "key": 0},
+      {"at": 16, "len": 2, "key": 1}
+    ],
+    "ent": [
+      {"tp": "BN", "data": {"name": "yes", "act": "pub"}},
+      {"tp": "BN", "data": {"name": "yes2", "act": "pub"}}
+    ]
+  },
+  {
+    "txt": "Go to URL:Yes OK",
+    "fmt": [
+      {"at": 0, "len": 16, "tp": "FM"},
+      {"at": 0, "len": 10, "tp": "ST"},
+      {"at": 10, "len": 6, "tp": "RW"},
+      {"at": 10, "len": 3, "key": 0},
+      {"at": 14, "len": 2, "key": 1}
+    ],
+    "ent": [
+      {"tp": "BN", "data": {"name": "ok", "act": "url", "ref": "https://github.com/tinode/chat/?key=val"}},
+      {"tp": "BN", "data": {"name": "ok2", "act": "url", "ref": "https://github.com/tinode/chat"}}
+    ]
+  }
+]
+}
