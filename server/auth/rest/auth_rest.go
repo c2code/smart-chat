@@ -12,9 +12,9 @@ import (
 	"strings"
 	"time"
 
-	"hexmeet.com/beluga/chat/server/auth"
-	"hexmeet.com/beluga/chat/server/store"
-	"hexmeet.com/beluga/chat/server/store/types"
+	"smart.com/smart-chat/server/auth"
+	"smart.com/smart-chat/server/store"
+	"smart.com/smart-chat/server/store/types"
 )
 
 // authenticator is the type to map authentication methods to.

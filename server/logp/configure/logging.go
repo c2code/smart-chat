@@ -10,7 +10,7 @@ import (
 
 	flag "github.com/spf13/pflag"
 
-	"hexmeet.com/beluga/chat/server/logp"
+	"smart.com/smart-chat/server/logp"
 )
 
 func init() {

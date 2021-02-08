@@ -20,12 +20,12 @@ import (
 	"time"
 
 	"github.com/gorilla/websocket"
-	"hexmeet.com/beluga/chat/pbx"
-	"hexmeet.com/beluga/chat/server/auth"
-	"hexmeet.com/beluga/chat/server/store"
-	"hexmeet.com/beluga/chat/server/store/types"
+	"smart.com/smart-chat/pbx"
+	"smart.com/smart-chat/server/auth"
+	"smart.com/smart-chat/server/store"
+	"smart.com/smart-chat/server/store/types"
 
-	"hexmeet.com/beluga/chat/server/logp"
+	"smart.com/smart-chat/server/logp"
 )
 
 // Wire transport

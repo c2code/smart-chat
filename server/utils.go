@@ -17,8 +17,8 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"hexmeet.com/beluga/chat/server/auth"
-	"hexmeet.com/beluga/chat/server/store/types"
+	"smart.com/smart-chat/server/auth"
+	"smart.com/smart-chat/server/store/types"
 
 	"golang.org/x/crypto/acme/autocert"
 )

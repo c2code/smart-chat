@@ -11,10 +11,10 @@ import (
 	fbase "firebase.google.com/go"
 	fcm "firebase.google.com/go/messaging"
 
-	"hexmeet.com/beluga/chat/server/drafty"
-	"hexmeet.com/beluga/chat/server/push"
-	"hexmeet.com/beluga/chat/server/store"
-	t "hexmeet.com/beluga/chat/server/store/types"
+	"smart.com/smart-chat/server/drafty"
+	"smart.com/smart-chat/server/push"
+	"smart.com/smart-chat/server/store"
+	t "smart.com/smart-chat/server/store/types"
 
 	"golang.org/x/oauth2/google"
 	"google.golang.org/api/option"

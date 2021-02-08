@@ -15,7 +15,7 @@ if [[ $old_version == $version ]];then
 fi
 source /etc/profile
 
-export GOPATH=$GOPATH:/home/haishen/chat/trunk/
+export GOPATH=$GOPATH:/Users/richer/go/
 export CGO_ENABLED=0
 
 cd $base_path/server

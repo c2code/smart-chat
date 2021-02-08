@@ -11,10 +11,10 @@ import (
 	"time"
 
 	jcr "github.com/DisposaBoy/JsonConfigReader"
-	_ "hexmeet.com/beluga/chat/server/db/mysql"
-	_ "hexmeet.com/beluga/chat/server/db/rethinkdb"
-	_ "hexmeet.com/beluga/chat/server/db/postgres"
-	"hexmeet.com/beluga/chat/server/store"
+	_ "smart.com/smart-chat/server/db/mysql"
+	_ "smart.com/smart-chat/server/db/rethinkdb"
+	_ "smart.com/smart-chat/server/db/postgres"
+	"smart.com/smart-chat/server/store"
 )
 
 type configType struct {

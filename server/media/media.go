@@ -7,7 +7,7 @@ import (
 	"path"
 	"strings"
 
-	"hexmeet.com/beluga/chat/server/store/types"
+	"smart.com/smart-chat/server/store/types"
 )
 
 // ReadSeekCloser must be implemented by the media being downloaded.

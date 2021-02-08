@@ -30,35 +30,35 @@ import (
 	gh "github.com/gorilla/handlers"
 
 	// Authenticators
-	"hexmeet.com/beluga/chat/server/auth"
-	_ "hexmeet.com/beluga/chat/server/auth/anon"
-	_ "hexmeet.com/beluga/chat/server/auth/basic"
-	_ "hexmeet.com/beluga/chat/server/auth/rest"
-	_ "hexmeet.com/beluga/chat/server/auth/token"
+	"smart.com/smart-chat/server/auth"
+	_ "smart.com/smart-chat/server/auth/anon"
+	_ "smart.com/smart-chat/server/auth/basic"
+	_ "smart.com/smart-chat/server/auth/rest"
+	_ "smart.com/smart-chat/server/auth/token"
 
 	// Database backends
-	_ "hexmeet.com/beluga/chat/server/db/mysql"
-	_ "hexmeet.com/beluga/chat/server/db/rethinkdb"
-	_ "hexmeet.com/beluga/chat/server/db/postgres"
+	_ "smart.com/smart-chat/server/db/mysql"
+	_ "smart.com/smart-chat/server/db/rethinkdb"
+	_ "smart.com/smart-chat/server/db/postgres"
 
 	// Push notifications
-	"hexmeet.com/beluga/chat/server/push"
-	_ "hexmeet.com/beluga/chat/server/push/fcm"
-	_ "hexmeet.com/beluga/chat/server/push/stdout"
+	"smart.com/smart-chat/server/push"
+	_ "smart.com/smart-chat/server/push/fcm"
+	_ "smart.com/smart-chat/server/push/stdout"
 
-	"hexmeet.com/beluga/chat/server/store"
+	"smart.com/smart-chat/server/store"
 
 	// Credential validators
-	_ "hexmeet.com/beluga/chat/server/validate/email"
-	_ "hexmeet.com/beluga/chat/server/validate/tel"
+	_ "smart.com/smart-chat/server/validate/email"
+	_ "smart.com/smart-chat/server/validate/tel"
 	"google.golang.org/grpc"
 
 	// File upload handlers
-	_ "hexmeet.com/beluga/chat/server/media/fs"
-	_ "hexmeet.com/beluga/chat/server/media/s3"
+	_ "smart.com/smart-chat/server/media/fs"
+	_ "smart.com/smart-chat/server/media/s3"
 
-	"hexmeet.com/beluga/chat/server/logp"
-	"hexmeet.com/beluga/chat/server/logp/configure"
+	"smart.com/smart-chat/server/logp"
+	"smart.com/smart-chat/server/logp/configure"
 
 	//"fmt"
 )

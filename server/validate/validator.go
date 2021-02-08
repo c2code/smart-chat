@@ -2,7 +2,7 @@
 package validate
 
 import (
-	t "hexmeet.com/beluga/chat/server/store/types"
+	t "smart.com/smart-chat/server/store/types"
 )
 
 // Validator handles validation of user's credentials, like email or phone.

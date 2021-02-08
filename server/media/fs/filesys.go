@@ -12,9 +12,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"hexmeet.com/beluga/chat/server/media"
-	"hexmeet.com/beluga/chat/server/store"
-	"hexmeet.com/beluga/chat/server/store/types"
+	"smart.com/smart-chat/server/media"
+	"smart.com/smart-chat/server/store"
+	"smart.com/smart-chat/server/store/types"
 )
 
 const (

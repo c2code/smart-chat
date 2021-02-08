@@ -10,9 +10,9 @@ import (
 	"strconv"
 	"time"
 
-	"hexmeet.com/beluga/chat/server/auth"
-	"hexmeet.com/beluga/chat/server/store"
-	t "hexmeet.com/beluga/chat/server/store/types"
+	"smart.com/smart-chat/server/auth"
+	"smart.com/smart-chat/server/store"
+	t "smart.com/smart-chat/server/store/types"
 	rdb "gopkg.in/rethinkdb/rethinkdb-go.v5"
 )
 

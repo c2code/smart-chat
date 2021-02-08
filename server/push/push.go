@@ -7,7 +7,7 @@ import (
 	"errors"
 	"time"
 
-	t "hexmeet.com/beluga/chat/server/store/types"
+	t "smart.com/smart-chat/server/store/types"
 )
 
 // Recipient is a user targeted by the push.

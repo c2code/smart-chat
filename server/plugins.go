@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"hexmeet.com/beluga/chat/pbx"
-	"hexmeet.com/beluga/chat/server/store/types"
+	"smart.com/smart-chat/pbx"
+	"smart.com/smart-chat/server/store/types"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 )

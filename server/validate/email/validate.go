@@ -19,8 +19,8 @@ import (
 	"strings"
 	"time"
 
-	"hexmeet.com/beluga/chat/server/store"
-	t "hexmeet.com/beluga/chat/server/store/types"
+	"smart.com/smart-chat/server/store"
+	t "smart.com/smart-chat/server/store/types"
 )
 
 // Validator configuration.

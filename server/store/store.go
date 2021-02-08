@@ -6,11 +6,11 @@ import (
 	"sort"
 	"strings"
 	"time"
-	"hexmeet.com/beluga/chat/server/auth"
-	"hexmeet.com/beluga/chat/server/db"
-	"hexmeet.com/beluga/chat/server/media"
-	"hexmeet.com/beluga/chat/server/store/types"
-	"hexmeet.com/beluga/chat/server/validate"
+	"smart.com/smart-chat/server/auth"
+	"smart.com/smart-chat/server/db"
+	"smart.com/smart-chat/server/media"
+	"smart.com/smart-chat/server/store/types"
+	"smart.com/smart-chat/server/validate"
 )
 
 var adp adapter.Adapter

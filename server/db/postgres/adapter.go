@@ -15,9 +15,9 @@ import (
 
 	"github.com/jmoiron/sqlx"
 	ps "github.com/lib/pq"
-	"hexmeet.com/beluga/chat/server/auth"
-	"hexmeet.com/beluga/chat/server/store"
-	t "hexmeet.com/beluga/chat/server/store/types"
+	"smart.com/smart-chat/server/auth"
+	"smart.com/smart-chat/server/store"
+	t "smart.com/smart-chat/server/store/types"
 )
 
 // adapter holds postgres connection data.

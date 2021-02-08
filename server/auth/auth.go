@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"time"
 
-	"hexmeet.com/beluga/chat/server/store/types"
+	"smart.com/smart-chat/server/store/types"
 )
 
 // Level is the type for authentication levels.

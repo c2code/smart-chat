@@ -4,8 +4,8 @@ import (
 	"log"
 	"strings"
 
-	"hexmeet.com/beluga/chat/server/store"
-	"hexmeet.com/beluga/chat/server/store/types"
+	"smart.com/smart-chat/server/store"
+	"smart.com/smart-chat/server/store/types"
 )
 
 // presParams defines parameters for creating a presence notification.

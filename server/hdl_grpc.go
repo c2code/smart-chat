@@ -16,9 +16,9 @@ import (
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
-	"hexmeet.com/beluga/chat/pbx"
-	"hexmeet.com/beluga/chat/server/logp"
-	"hexmeet.com/beluga/chat/server/logp/configure"
+	"smart.com/smart-chat/pbx"
+	"smart.com/smart-chat/server/logp"
+	"smart.com/smart-chat/server/logp/configure"
 )
 
 type grpcNodeServer struct {

@@ -17,11 +17,11 @@ import (
 	"time"
 
 	"github.com/gorilla/websocket"
-	"hexmeet.com/beluga/chat/pbx"
-	"hexmeet.com/beluga/chat/server/logp"
-	"hexmeet.com/beluga/chat/server/logp/configure"
-	"hexmeet.com/beluga/chat/server/store"
-	"hexmeet.com/beluga/chat/server/store/types"
+	"smart.com/smart-chat/pbx"
+	"smart.com/smart-chat/server/logp"
+	"smart.com/smart-chat/server/logp/configure"
+	"smart.com/smart-chat/server/store"
+	"smart.com/smart-chat/server/store/types"
 )
 
 // SessionStore holds live sessions. Long polling sessions are stored in a linked list with

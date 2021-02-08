@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"os"
 
-	"hexmeet.com/beluga/chat/server/push"
+	"smart.com/smart-chat/server/push"
 )
 
 var handler stdoutPush

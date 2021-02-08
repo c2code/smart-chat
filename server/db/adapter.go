@@ -4,8 +4,8 @@ package adapter
 import (
 	"time"
 
-	"hexmeet.com/beluga/chat/server/auth"
-	t "hexmeet.com/beluga/chat/server/store/types"
+	"smart.com/smart-chat/server/auth"
+	t "smart.com/smart-chat/server/store/types"
 )
 
 // Adapter is the interface that must be implemented by a database

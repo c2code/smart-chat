@@ -17,12 +17,12 @@ import (
 	"sync"
 	"time"
 
-	"hexmeet.com/beluga/chat/server/auth"
-	//rh "hexmeet.com/beluga/chat/server/ringhash"
+	"smart.com/smart-chat/server/auth"
+	//rh "smart.com/smart-chat/server/ringhash"
 	"strconv"
 
-	"hexmeet.com/beluga/chat/server/store"
-	"hexmeet.com/beluga/chat/server/store/types"
+	"smart.com/smart-chat/server/store"
+	"smart.com/smart-chat/server/store/types"
 )
 
 const (

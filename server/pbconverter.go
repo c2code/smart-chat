@@ -7,8 +7,8 @@ import (
 	"log"
 	"time"
 
-	"hexmeet.com/beluga/chat/pbx"
-	"hexmeet.com/beluga/chat/server/store/types"
+	"smart.com/smart-chat/pbx"
+	"smart.com/smart-chat/server/store/types"
 )
 
 func pbServCtrlSerialize(ctrl *MsgServerCtrl) *pbx.ServerMsg_Ctrl {

@@ -9,10 +9,10 @@ import (
 	"strings"
 	"time"
 
-	"hexmeet.com/beluga/chat/server/auth"
-	_ "hexmeet.com/beluga/chat/server/auth/basic"
-	"hexmeet.com/beluga/chat/server/store"
-	"hexmeet.com/beluga/chat/server/store/types"
+	"smart.com/smart-chat/server/auth"
+	_ "smart.com/smart-chat/server/auth/basic"
+	"smart.com/smart-chat/server/store"
+	"smart.com/smart-chat/server/store/types"
 )
 
 func genDb(reset bool, config string, data *Data) {

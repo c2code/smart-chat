@@ -17,11 +17,11 @@ import (
 
 	"strings"
 
-	"hexmeet.com/beluga/chat/server/auth"
-	"hexmeet.com/beluga/chat/server/logp"
-	"hexmeet.com/beluga/chat/server/push"
-	"hexmeet.com/beluga/chat/server/store"
-	"hexmeet.com/beluga/chat/server/store/types"
+	"smart.com/smart-chat/server/auth"
+	"smart.com/smart-chat/server/logp"
+	"smart.com/smart-chat/server/push"
+	"smart.com/smart-chat/server/store"
+	"smart.com/smart-chat/server/store/types"
 )
 
 // Topic is an isolated communication channel
